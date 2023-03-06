@@ -29,6 +29,8 @@ class ProfileFragment : Fragment() {
     }
 
     private fun setupObserver() {
+        Log.d("GOLDTAG", "OBSERVER MADE")
+
         viewModel.pokemon.observe(viewLifecycleOwner) {
             Log.d("GOLDTAG", "${it.get(0).abilities[0].ability.name[0]}")
         }

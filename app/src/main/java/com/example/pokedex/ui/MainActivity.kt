@@ -1,14 +1,14 @@
-package com.example.pokedex
+package com.example.pokedex.ui
 
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentTransaction
+import com.example.pokedex.R
 import com.example.pokedex.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
-
 
     private var binding: ActivityMainBinding? = null
 

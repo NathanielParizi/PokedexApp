@@ -1,6 +1,7 @@
 # PokedexApp
 
 Pokemon Purchase with PokedexApp
+
 This project is a feature prototype which uses the PokeAPI as a data source and allows users to check if they have sufficient funds to purchase a Pokemon based on its base experience.
 
 Solution:

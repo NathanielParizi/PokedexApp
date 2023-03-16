@@ -42,7 +42,7 @@ class PokemonViewModel @Inject constructor(private val pokemonRepo: PokemonRepos
     }
 
     private fun initializeUser() {
-        val user = User("Ash", "Katchem", 100, 123, "ashKetchem@gmail.com")
+        val user = User("Ash", "Katchem", 1000, 123, "ashKetchem@gmail.com")
         _mUser.postValue(user)
     }
 
